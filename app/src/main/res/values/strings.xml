@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Virus Basic Statistics</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="cannot_get_data">Cannot get data. Check internet connection</string>
+    <string name="refreshed">Refreshed</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="countries">Countries</string>
+    <string name="about_fragment_title">About</string>
+    <string name="rules_fragment_title">Rules</string>
+    <string name="about_text">
+    This app is designed for demonstration purpose.
+    \nObjectives:
+    \n - learn NavigationUI(menu, Up button, Drawer, Navigation Graph)
+    \n - learn ViewModel architecture
+    \n - create ViewModel using ViewModelFactory
+    \n - implement Observer Pattern
+    \n - data binding between ViewModel and layout.xml
+    \n - data binding using binding adapter
+    \n - implement recycler view (Linear layout)
+    \n - implement DiffUtil
+    \n - use Retrofit library to connect to internet
+    \n - use Glide library to download images
+    \n - create Room database
+    \n - create repository and implement CoroutineWorker to prefetch data
+    \n - data source: https://api.covid19api.com
+    \n - flag icon source: https://www.countryflags.io
+    </string>
+    <string name="rules_text">
+        \u0020 - tap navigation drawer to navigate between Rules and About
+        \n - tap menu to select sorting order
+        \n - swipe down to refresh list
+    </string>
+    <string name="sort_a_z">Sort A-Z</string>
+    <string name="sort_z_a">Sort Z-A</string>
+    <string name="sort_min_max">Sort Min-Max</string>
+    <string name="sort_max_min">Sort Max-Min</string>
+    <string name="drawer_header_image">Drawer Header Image</string>
+    <string name="country_flag">country flag</string>
+    <string name="deaths">Deaths</string>
+    <string name="global">Global</string>
+
+    <string name="stats_formatted">%1$d (%2$d)</string>
+    <string name="AZ">AZ</string>
+    <string name="ZA">ZA</string>
+    <string name="MINMAX">MINMAX</string>
+    <string name="MAXMIN">MAXMIN</string>
+
+</resources>
