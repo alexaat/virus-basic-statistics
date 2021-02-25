@@ -1,5 +1,6 @@
 package com.alexaat.virusbasicstatistics.adapters
 
+import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.net.toUri
@@ -54,7 +55,7 @@ fun TextView.setTotalDeaths(countryStats: CountryStats){
 
 @BindingAdapter("setDate")
 fun TextView.setDate(countryStats: CountryStats){
-    val sdfOriginal = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'")
+    val sdfOriginal = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
     var newDate:String
     try {
         val date = sdfOriginal.parse(countryStats.Date)
